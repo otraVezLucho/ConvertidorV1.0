@@ -67,7 +67,7 @@ public class FramePrincipal extends JFrame implements ActionListener {
 		mensajePrincipalLabel = new JLabel();
 		mensajePrincipalLabel.setText("<html> ¡Bienvenido! <p>En esta herramienta podrás realizar conversiones entre divisas o entre distancias, por favor elige una opción para empezar.<html>");
 		mensajePrincipalLabel.setFont(new Font("Century Gothic",Font.PLAIN,30));
-		mensajePrincipalLabel.setBounds(20, 10, 500, 250);
+		mensajePrincipalLabel.setBounds(20, 0, 500, 250);
 		
 		mensajePrincipalPanel = new JPanel();
 		mensajePrincipalPanel.setBounds(120, 0, 680, 300);
