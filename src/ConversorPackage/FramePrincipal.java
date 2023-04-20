@@ -69,6 +69,7 @@ public class FramePrincipal extends JFrame implements ActionListener {
 		mensajePrincipalLabel.setFont(new Font("Century Gothic",Font.PLAIN,30));
 		mensajePrincipalLabel.setBounds(20, 0, 500, 250);
 		
+		
 		mensajePrincipalPanel = new JPanel();
 		mensajePrincipalPanel.setBounds(120, 0, 680, 300);
 		mensajePrincipalPanel.setBackground(new Color(0xF5F5F5));
